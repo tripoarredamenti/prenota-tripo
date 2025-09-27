@@ -6,51 +6,91 @@
   <title>Prenota Appuntamento - Tripo Arredamenti</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #fdfdfd;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(180deg, #ffffff, #f4f7fa);
       text-align: center;
       margin: 0;
       padding: 0;
+      color: #333;
     }
+
     header {
-      padding: 30px;
+      padding: 40px 20px;
+      background-color: #ffffff;
+      border-bottom: 2px solid #0a2d57;
     }
+
     header img {
-      max-width: 250px;
+      max-width: 200px;
+      margin-bottom: 15px;
     }
+
     h1 {
       color: #0a2d57;
-      margin-top: 10px;
+      margin: 10px 0;
+      font-size: 1.8em;
     }
+
     p {
-      font-size: 1.2em;
-      margin: 20px;
+      font-size: 1.1em;
+      margin: 20px 15px;
     }
+
     a.button {
       display: inline-block;
       padding: 15px 30px;
-      background-color: #0a5491;
+      margin-top: 20px;
+      background: linear-gradient(135deg, #0a5491, #0a2d57);
       color: white;
       text-decoration: none;
       font-size: 1.2em;
+      font-weight: bold;
       border-radius: 8px;
-      transition: background 0.3s;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      transition: transform 0.2s, background 0.3s;
     }
+
     a.button:hover {
-      background-color: #083e6c;
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #083e6c, #052540);
+    }
+
+    footer {
+      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.95em;
+      color: #fff;
+      background: #0a2d57;
+      line-height: 1.6em;
     }
   </style>
 </head>
 <body>
+
   <header>
     <img src="logo.png" alt="Tripo Arredamenti Logo">
-    <h1>Prenota il tuo Appuntamento in Store</h1>
+    <h1>Benvenuti da Tripo Arredamenti</h1>
+    <p>Prenota il tuo appuntamento in store in pochi secondi.</p>
   </header>
+
   <main>
-    <p>Compila il modulo email cliccando sul pulsante qui sotto e scegli data e ora che preferisci. Ti ricontatteremo per confermare la prenotazione.</p>
-  <a class="button" href="mailto:info@tripoarredamenti.it?subject=Prenotazione%20Appuntamento%20in%20Store&body=Nome:%0ATelefono:%0AServizio%20richiesto:%0AData%20preferita:%0AOra%20preferita:%0ANote:">
-  Prenota Ora
-</a>
+    <p>Compila il modulo email cliccando sul pulsante qui sotto e scegli <b>data</b> e <b>ora</b> che preferisci.<br>
+    Ti ricontatteremo per confermare la prenotazione.</p>
+
+    <a class="button" href="mailto:info@tripoarredamenti.it?subject=Prenotazione%20Appuntamento%20in%20Store&body=Nome:%0ACognome:%0ATelefono:%0AServizio%20Richiesto:%0AData%20Preferita:%0AOra%20Preferita:%0ANote:">
+      📅 Prenota Ora
+    </a>
   </main>
+
+  <footer>
+    📍 Corso San Marco, 98, 90030 Villafrati (PA) <br>
+    ☎️ 091 829 1204 <br><br>
+    <b>Orari di apertura</b><br>
+    Lunedì: 16:00 – 20:00 <br>
+    Martedì–Venerdì: 09:30 – 13:00, 16:00 – 20:00 <br>
+    Sabato: 09:30 – 13:00, 16:00 – 20:00 <br>
+    Domenica: Chiuso
+  </footer>
+
 </body>
 </html>
